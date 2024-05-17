@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <title>Shivanshu</title>
+   <title>Login</title>
   </head>
   <body>
   <h1>Login Page</h1>
     <form action="/validate.php" method="post">
       <label for="username">Username:</label>
       <br>
-      <input type="text" id="Username" name="Username" >
+      <input type="text" id="username" name="username" >
       <br>
       <label for="password">Password:</label>
       <br>
