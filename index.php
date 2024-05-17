@@ -9,7 +9,10 @@ session_start();
   <body>
     <h1>Assignment1</h1> 
     
-    <p> Welcome, <?=$_SESSION['username'] ?></p>
+    <p> Welcome, User </p>
     <?php echo "Today is ", date('F j, Y') ?>
-    <p><a href="/login.php">Click here to login </a></p>
+   <footer>
+    <p><a href="/logout.php">Click here to logout </a></p>
+   </footer>
+  </body>
 </html>
